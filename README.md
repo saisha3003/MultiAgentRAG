@@ -113,8 +113,6 @@ MultiAgentRAG/
 │ ├── config.py
 │ ├── logging_config.py
 │ └── vector_store.py
-
-undefined
 ---
 
 ## Customization
