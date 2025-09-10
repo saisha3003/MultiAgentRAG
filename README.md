@@ -92,27 +92,27 @@ curl -X POST http://127.0.0.1:8000/query -H "Content-Type: application/json" -d 
 
 ## Project Structure
 
-MultiAgentRAG/
-├── app.py
-├── populate_vector_store.py
-├── requirements.txt
-├── README.md
-├── .gitignore
-├── data/
-│ └── chroma_db/
-├── src/
-│ ├── orchestrator/
-│ │ └── master_orchestrator.py
-│ ├── agents/
-│ │ ├── base_agent.py
-│ │ ├── query_planner.py
-│ │ ├── information_extractor.py
-│ │ ├── synthesizer.py
-│ │ └── quality_assurance.py
-│ └── utils/
-│ ├── config.py
-│ ├── logging_config.py
-│ └── vector_store.py
+```MultiAgentRAG/
+    app.py
+    populate_vector_store.py
+    requirements.txt
+    README.md
+    .gitignore
+    data/
+        chroma_db/
+    src/
+        orchestrator/
+            master_orchestrator.py
+        agents/
+            base_agent.py
+            query_planner.py
+            information_extractor.py
+            synthesizer.py
+            quality_assurance.py
+        utils/
+            config.py
+        logging_config.py
+        ```vector_store.py
 
 ---
 
