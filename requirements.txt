@@ -1,0 +1,26 @@
+# Core LangChain and AI libraries
+langchain
+langchain-openai
+langchain-community
+langgraph
+
+# Vector databases and embeddings
+chromadb
+sentence-transformers
+
+# Web framework and async support
+fastapi
+uvicorn
+asyncio-mqtt
+
+# Data processing
+pandas
+python-dotenv
+
+# Monitoring and logging
+pydantic
+loguru
+
+# Development tools
+pytest
+black
